@@ -12,7 +12,7 @@ This Visual Studio Code extension updates your Slack status to show the file you
 
 ### 1. Obtain a Slack Token
 1. Go to your Slack workspace settings and create a token with `profile:write` permission.
-2. In VS Code, open settings (`File > Preferences > Settings` or `Ctrl+,`).
+2. In VS Code, open settings.json.
 3. Set the `slackPresence.token` configuration to your Slack token.
 
 ### 2. Usage
