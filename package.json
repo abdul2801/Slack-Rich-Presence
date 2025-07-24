@@ -1,0 +1,29 @@
+{
+  "name": "slack-rich-presence",
+  "displayName": "Slack Rich Presence",
+  "version": "0.0.1",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "Slack Rich Presence",
+      "properties": {
+        "slackPresence.token": {
+          "type": "string",
+          "default": "",
+          "description": "Your Slack xoxp token"
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
