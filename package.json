@@ -2,7 +2,7 @@
   "name": "slack-rich-presence",
   "displayName": "Slack Rich Presence",
   "version": "0.0.1",
-  "publisher": "your-name",
+  "publisher": "afdul",
   "engines": {
     "vscode": "^1.80.0"
   },
