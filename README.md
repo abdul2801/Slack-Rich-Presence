@@ -15,14 +15,6 @@ This Visual Studio Code extension updates your Slack status to show the file you
 2. In VS Code, open settings.json.
 3. Set the `slackPresence.token` configuration to your Slack token.
 
-### 2. Usage
-- Open a folder in VS Code to start the extension.
-- Your Slack status will update when you:
-  - Open a file.
-  - Switch between files.
-- If the workspace is a GitHub repository, a clickable GitHub link will be included in the status.
-- After 3 minutes of inactivity, your status will switch to "Idle in VSCode".
-
 ### 3. Status Format Example
 ```
 Editing extension.js in Slack-Rich-Presence
