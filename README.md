@@ -5,7 +5,7 @@ This Visual Studio Code extension updates your Slack status to show the file you
 ## Features
 
 - **Dynamic Status Updates**: Automatically updates your Slack status with the current file and workspace name.
-- **GitHub Integration**: Includes a clickable GitHub link if the workspace is a GitHub repository.
+- **GitHub Integration**: Includes a GitHub link if the workspace is a GitHub repository.
 - **Idle Detection**: Changes status to "Idle in VSCode" after 3 minutes of inactivity.
 
 ## Setup
